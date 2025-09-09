@@ -241,3 +241,26 @@ body { animation: fadein .25s both; }
 .thumb-grid .sub{margin:0;color:var(--muted);font-size:12px}
 .thumb-grid .price{margin-top:6px;font-weight:900}
 
+.back-btn {
+  position: fixed;   /* 스크롤해도 항상 같은 위치 */
+  top: 20px;         /* 화면 위에서 20px */
+  left: 20px;        /* 화면 왼쪽에서 20px */
+  z-index: 9999;     /* 다른 요소보다 위에 표시 */
+}
+
+.back-btn img {
+  width: 53px;       /* 버튼 크기 키우기 */
+  height: auto;
+  cursor: pointer;   /* 마우스 올리면 손 모양 */
+}
+
+.vid {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;  /* 16:9 비율 유지 */
+  display: block;
+  background: #000;    /* 로딩 전 배경 */
+}
+
+
+
