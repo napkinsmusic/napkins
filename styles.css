@@ -270,7 +270,7 @@ body { animation: fadein .25s both; }
 }
 .thumb-grid a {
   display: block;
-  padding: 16px;
+  padding: 5px;
   border: 1px solid #eee;
   border-radius: 12px;
   text-align: center;
