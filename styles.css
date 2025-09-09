@@ -280,5 +280,21 @@ body { animation: fadein .25s both; }
   height: auto;
 }
 
+html,body{margin:0}
+*{box-sizing:border-box}
+
+/* 2열 꽉 차게 + 좌우 여백 최소화 */
+.thumb-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;              /* 카드 사이 간격 */
+  padding:0 8px;         /* 화면 가장자리 여백(줄이고 싶으면 0) */
+  width:100%;
+}
+
+/* 카드 내부 여백은 유지 */
+.thumb-grid a{display:block;padding:14px;border:1px solid #eee;border-radius:12px}
+.thumb-grid img{width:100%;height:auto;display:block}
+
 
 
