@@ -209,7 +209,7 @@ html,body{overflow-x:hidden}
 .thumb-grid {
   display:grid;
   gap:12px;
-  padding:16px;
+  padding:3px;
 }
 
 .thumb-grid a img {
@@ -266,11 +266,11 @@ body { animation: fadein .25s both; }
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 무조건 2열 */
   gap: 16px;
-  padding: 12px;
+  padding: 3px;
 }
 .thumb-grid a {
   display: block;
-  padding: 16px;
+  padding: 3px;
   border: 1px solid #eee;
   border-radius: 12px;
   text-align: center;
