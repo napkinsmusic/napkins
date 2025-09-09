@@ -262,12 +262,23 @@ body { animation: fadein .25s both; }
   background: #000;    /* 로딩 전 배경 */
 }
 
-.thumb-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
-  gap:16px; padding:12px;
+.thumb-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 무조건 2열 */
+  gap: 16px;
+  padding: 12px;
 }
-.thumb-grid a{display:block;padding:16px;border:1px solid #eee;border-radius:16px}
-.thumb-grid img{width:100%;height:auto;display:block}
+.thumb-grid a {
+  display: block;
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  text-align: center;
+}
+.thumb-grid img {
+  width: 100%;
+  height: auto;
+}
+
 
 
