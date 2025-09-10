@@ -249,7 +249,7 @@ body { animation: fadein .25s both; }
 }
 
 .back-btn img {
-  width: 53px;       /* 버튼 크기 키우기 */
+  width: 60px;       /* 버튼 크기 키우기 */
   height: auto;
   cursor: pointer;   /* 마우스 올리면 손 모양 */
 }
