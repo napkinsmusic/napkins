@@ -112,7 +112,7 @@ a {
   font-size:7px; /* 원하는 크기로 변경 */
   color:var(--muted);
   border-top:1px solid var(--line);
-  line-height:1.4; /* 줄 간격도 같이 조정 가능 */
+  line-height:1.1; /* 줄 간격도 같이 조정 가능 */
 }
 
 
