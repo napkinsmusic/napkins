@@ -107,9 +107,9 @@ a {
 }
 
 .footer {
-  padding:20px 16px;
+  padding:16px 16px;
   text-align:left;
-  font-size:10px; /* 원하는 크기로 변경 */
+  font-size:8px; /* 원하는 크기로 변경 */
   color:var(--muted);
   border-top:1px solid var(--line);
   line-height:0.8; /* 줄 간격도 같이 조정 가능 */
