@@ -107,7 +107,7 @@ a {
 }
 
 .footer {
-  padding:16px 16px;
+  padding:8px 16px;
   text-align:left;
   font-size:8px; /* 원하는 크기로 변경 */
   color:var(--muted);
